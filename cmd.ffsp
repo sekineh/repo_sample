@@ -1,5 +1,10 @@
 <?xml version="1.0"?>
 <SessionTemplate version="7.0.1.201802131446">
     <baseApplication>com.fnfr.svt.applications.cmd</baseApplication>
-    <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties"/>
+    <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties">
+        <terminalProperties>
+            <useStandardFont inherit="false" defaultValue=""/>
+        </terminalProperties>
+    </sessionProperties>
+    <nickName>sname</nickName>
 </SessionTemplate>
