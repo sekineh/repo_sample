@@ -3,7 +3,7 @@
     <baseApplication>com.fnfr.svt.applications.cmd</baseApplication>
     <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties">
         <terminalProperties>
-            <useStandardFont inherit="false">false</useStandardFont>
+            <useStandardFont inherit="false" defaultValue=""/>
         </terminalProperties>
     </sessionProperties>
     <nickName>sname</nickName>
